@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ GAMBAR INDONESIA</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finlandica:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm fixed-top" style="backdrop-filter: blur(4px);" id="navMenu">
+            <div class="container">
+                <a class="navbar-brand" id="navbarBrand" href="#">
+                    <img src="images/IconQuiz/LogoQuiz.png" width="240" alt="LogoQuiz">
+                </a>
+                <div class="navbar-icon">
+                    <a href="https://www.facebook.com/khencahyo.13" target="_blank" class="me-3" style="text-decoration: none;">
+                        <img src="images/IconQuiz/fb@2x.png" width="42" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/khencahyo.13" target="_blank" class="me-3" style="text-decoration: none;">
+                        <img src="images/IconQuiz/ig@2x.png" width="42" alt="Instagram">
+                    </a>
+                    <a href="https://www.github.com/KhenCahyo13" target="_blank" style="text-decoration: none;">
+                        <img src="images/IconQuiz/github@2x.png" width="42" alt="Github">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="main-page" id="mainPage">
+            <div class="container">
+                <div class="row">
+                    <div class="img-fluid">
+                        <img src="images/IconQuiz/Group 5@2x.png" width="100%" alt="">
+                    </div>
+                    <div class="mt-4 text-center">
+                        <button type="button" class="btn btn-primary btn-lg shadow" data-bs-toggle="modal" data-bs-target="#captchaModal" id="btnBermain">Bermain Sekarang !</button>
+                    </div>
+                    <div class="modal fade" id="captchaModal" tabindex="1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="container popup-box" id="popupBox">
+                                        <div class="text-center">
+                                            <div class="popup-header">
+                                                <h5>VERIFIKASI CAPTCHA SEBELUM BERMAIN</h5>
+                                            </div>
+                                            <div class="popup-image img-thumb">
+                                                <img src="images/IconQuiz/background-captcha.jpg" alt="Background Capthca" width="320" height="80">
+                                            </div>
+                                            <div class="popup-body mt-2 ">
+                                                <span class="popup-captcha-number" id="captchaNumber"></span>
+                                                <input type="text" class="captcha-input mt-2" required placeholder="Masukkan Captcha Disini" id="inputCaptcha">
+                                            </div>
+                                            <div class="popup-button">
+                                                <button class="btn btn-primary shadow" id="btnBermain2">Bermain</button>
+                                                <button type="button" class="btn btn-danger shadow ms-2" data-bs-dismiss="modal">Close</button>
+                                                <button type="reset" class="btn btn-dark shadow ms-2" id="btnReset">Reset</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container popup-box" id="popupBox">
+                <div class="text-center">
+                    <div class="popup-header">
+                        <h5>VERIFIKASI CAPTCHA SEBELUM BERMAIN</h5>
+                    </div>
+                    <div class="popup-image img-thumb">
+                        <img src="images/IconQuiz/background-captcha.jpg" alt="Background Capthca" width="320" height="80">
+                    </div>
+                    <div class="popup-body mt-2">
+                        <input type="text" class="captcha-input" required placeholder="Masukkan Captcha Disini">
+                    </div>
+                    <div class="popup-button">
+                        <button class="btn btn-primary shadow">Bermain</button>
+                        <button type="reset" class="btn btn-danger shadow ms-2">Reset</button>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+
+        <section class="main-about mt-5" id="mainAbout">
+
+            <div class="container container-about" id="tambahBuku">
+                <div class="card card-about">
+                    <div class="card-header">
+                        <h1 class="text-center">TENTANG QUIZ GAMBAR INDONESIA</h1>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-center">" Dibuat untuk mempelajari sistem dalam bahasa pemrograman JavaScript. Tampilan Website dibuat dengan menggunakan Framework Bootstrap 5 dan SCSS untuk custom style didalam class bawaan dari Bootstrap. Selain dibuat untuk mempelajari
+                            tentang bahasa pemrograman JavaScript, Website ini juga dibuat untuk bersenang-senang dan untuk tambahan portofolio di akun
+                            <a href="https://www.github.com/KhenCahyo13" target="_blank" style="text-decoration: none; color: #249A67; font-weight: 600;">Github</a> saya. Mari berteman dengan saya dengan mengklik tombol Sosial Media saya di Navbar. Terimakasih
+                            telah berkunjung, Selamat Mencoba :D "</p>
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-muted justify-content-end d-flex"><i>* Built using Bootstrap 5 and SCSS</i></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container container-how">
+                <h1 class="text-white">Bagaimana Cara Bermain ?</h1>
+                <p class="text-penjelasan">Cara bermainnya cukup mudah. Klik tombol - Bermain Sekarang ! - diatas lalu verifikasi captcha yang ada pada gambar dengan benar lalu anda akan dialihkan ke halaman quiz dan jawablah quiz dengan benar. Selamat Mencoba :D</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-web">
+            <div class="container">
+                <div class="text-footer">
+                    <p>Copyright 2022 &copy; Quiz Gambar Indonesia By KhenCahyo</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2 " crossorigin="anonymous "></script>
+</body>
+
+</html>
+
+</html>
