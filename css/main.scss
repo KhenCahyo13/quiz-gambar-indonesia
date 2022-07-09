@@ -248,6 +248,54 @@
         }
     }
     
+    @media only screen and(max-width:428px) {
+        .navbar-brand {
+            img {
+                width: 180px;
+                height: 84px;
+            }
+        }
+        .navbar-icon {
+            a {
+                img {
+                    width: 22px;
+                    height: 22px;
+                }
+            }
+        }
+        .popup-box {
+            width: 100%;
+        }
+        .captcha-input {
+            width: 100%;
+        }
+        .popup-image {
+            img {
+                width: 100%;
+                background-size: cover;
+            }
+        }
+        .popup-body {
+            span {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        .quiz-image {
+            img {
+                width: 100%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        .quiz-answer {
+            p {
+                width: 100%;
+            }
+        }
+    }
+    
     @media only screen and(max-width: 576px) {
         .navbar-icon {
             a {
